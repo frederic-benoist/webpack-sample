@@ -1,6 +1,6 @@
-# PrestaShop 1.7 webpack sample configuration files
+# PrestaShop 1.7 Webpack 3 sample configuration files
 
-Sample webpack configuration files
+Sample webpack 3 configuration files for PrestaShop Starter theme
 
 ==For PrestaShop Development training only.==
 
@@ -12,19 +12,33 @@ Sample webpack configuration files
 
 ## Installing
 
-Copy in /themes/my_theme/_dev
+1. Install files
 
-cd /themes/my_theme/_dev
-npm install
+    ```sh
+    $ cd prestashop_root_directory/themes/my_theme/_dev
+    $ git clone https://github.com/frederic-benoist/webpack-sample.git .
+    ```
 
+2. install dependencies
+
+    ```sh    
+    npm install
+    ```
 
 ## Running 
 
-npm run watch
-
-npm run dev
-
-npm run prod
+1. Watch files and recompile whenever they change.
+    ```sh 
+    npm run watch
+    ```
+2. Build assets in development mode (source map, etc.)
+    ```sh 
+    npm run dev
+    ```
+3. Build assets in production mode (minify, etc.)
+    ```sh 
+    npm run prod
+    ```
 
 ## Authors
 
