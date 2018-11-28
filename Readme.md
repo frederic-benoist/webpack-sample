@@ -7,11 +7,16 @@ Sample webpack configuration files
 ### Prerequisites
 
 - You need a shop with **PrestaShop 1.7.0.0** or higher.
+- You need **NodeJS**.
 - You need access to the **shell** of your server.
 
 ## Installing
 
 Copy in /themes/my_theme/_dev
+
+cd /themes/my_theme/_dev
+npm install
+
 
 ## Running 
 
