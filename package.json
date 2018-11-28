@@ -1,0 +1,48 @@
+{
+  "name": "webpack_3_starter",
+  "version": "1.0.0",
+  "description": "Webpack 3 with starter theme",
+  "main": "index.js",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "scripts": {
+    "watch": "webpack --watch --progress --colors --env=dev",
+    "dev": "webpack --progress --hide-modules --env=dev",
+    "prod": "webpack --progress --hide-modules --env=prod",
+    "build": "echo \"Error: use dev or prod\" && exit 0 ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frédéric BENOIST",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.0.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "browserslist": "^3.1.1",
+    "css-loader": "^0.28.9",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "image-webpack-loader": "^4.1.0",
+    "less": "^2.3.1",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "npm-font-open-sans": "^1.1.0"
+  }
+}
