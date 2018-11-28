@@ -1,7 +1,7 @@
 {
-  "name": "webpack_3_starter",
+  "name": "frederic-benoist/webpack-sample",
   "version": "1.0.0",
-  "description": "Webpack 3 with starter theme",
+  "description": "Webpack 3 for PrestaShop Starter theme",
   "main": "index.js",
   "browserslist": [
     "> 1%",
@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Frédéric BENOIST",
-  "license": "ISC",
+  "license": "AFL 3.0",
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "^6.26.0",
