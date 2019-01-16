@@ -16,7 +16,9 @@ Sample webpack 3 configuration files for PrestaShop Starter theme
 
     ```sh
     $ cd prestashop_root_directory/themes/my_theme/_dev
-    $ git clone https://github.com/frederic-benoist/webpack-sample.git .
+    $ git clone https://github.com/frederic-benoist/webpack-sample.git 
+    $ mv -force webpack-sample/* ./
+	$ rm -r -force webpack-sample
     ```
 
 2. install dependencies
