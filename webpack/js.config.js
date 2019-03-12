@@ -38,11 +38,18 @@ let js_config = {
     filename: 'theme.js'
   },
   module: {
-    loaders: [{
-      test: /\.js$/,
-      exclude: /node_modules/,
-      loaders: ['babel-loader']
-    }]
+    rules: [
+      {
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015'],
+          },
+        },
+        test: /\.js$/,
+        exclude: /node_modules/,
+      },
+    ],
   },
   externals: {
     prestashop: 'prestashop'
